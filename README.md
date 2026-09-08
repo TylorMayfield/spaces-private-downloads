@@ -11,6 +11,7 @@ This README contains an affiliate link. If you sign up through it, I may earn a 
 ## Requirements
 
 - Node.js 22 or newer and npm.
+- A macOS or Linux shell with Git and OpenSSL. On Windows, run these commands in WSL with Node.js, Git, and OpenSSL installed there.
 - A DigitalOcean Spaces bucket with the CDN disabled for this exercise.
 - A Spaces access key with read access restricted to this bucket. Read also allows listing and other read metadata operations across that bucket; it is not permission for only one file. Use a separate upload credential or the control panel to add your test files.
 
