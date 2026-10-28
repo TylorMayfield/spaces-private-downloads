@@ -4,9 +4,9 @@ A small Next.js app for rehearsing private file delivery. An authenticated owner
 
 This is a local teaching example. It uses two demo accounts and HTTP Basic Auth so the ownership check works without a separate identity provider. Never expose it publicly as your customer login system. Basic Auth requires HTTPS outside localhost and has awkward browser logout behavior. The npm run commands bind to localhost on purpose. Routes reject non-loopback hostnames and refuse production mode unless `LOCAL_REHEARSAL=1`; `npm start` sets that flag only for the local production-build check. Do not set that flag on hosting services or put this app behind a public proxy.
 
-The [full walkthrough](https://www.tylor.nz/content/spaces-private-downloads) is awaiting site publication. Until then, use the complete setup instructions below.
+Follow the [full walkthrough](https://www.tylor.nz/content/spaces-private-downloads?utm_source=github&utm_medium=referral&utm_campaign=digitalocean-guides&utm_content=companion-readme) for the cost comparison, bucket setup and access checks. The complete local setup is also included below.
 
-This README contains an affiliate link. If you sign up through it, I may earn a commission at no extra cost to you. If Spaces fits your project, [Visit DigitalOcean](https://www.tylor.nz/go/digitalocean?utm_source=github&utm_medium=affiliate&utm_campaign=digitalocean-guides&utm_content=spaces-private-downloads&product=spaces&placement=companion-readme&variant=private-downloads&locale=en). Creating a Spaces bucket starts paid billing; a signup offer does not make storage permanently free.
+This README contains an affiliate link. If you sign up through it, I may earn a commission at no extra cost to you. If Spaces fits your project, [Explore Spaces storage on DigitalOcean](https://www.tylor.nz/go/digitalocean?utm_source=github&utm_medium=affiliate&utm_campaign=digitalocean-guides&utm_content=spaces-private-downloads&product=spaces&placement=companion-readme&variant=private-downloads&locale=en). Creating a Spaces bucket starts paid billing; a signup offer does not make storage permanently free.
 
 ## Requirements
 
